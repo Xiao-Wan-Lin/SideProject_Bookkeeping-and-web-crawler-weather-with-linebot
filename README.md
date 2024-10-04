@@ -1,3 +1,12 @@
-# Book with linebot and web crawler weather -python-
-用linebot記帳且可查詢天氣，
-抓取line使用者的id且用sqlite3儲存記帳資料，輸入正確格式可進行記帳資料新增/修改/刪除，使用ngrok將localhost對應到https public domain；輸入天氣 地區即可查詢天氣，使用氣象台開放資料做爬蟲，將爬到的天氣資訊回傳給LINE的使用者
+# Bookkeeping and web crawler weather with linbot
+Use a LINE bot for expense tracking and weather inquiries.
+
+# Demo
+
+https://github.com/user-attachments/assets/b26f372e-0d19-4bda-9845-e627ef535618
+
+- Retrieve the LINE user ID and store expense data using SQLite3.
+- Input the correct format to add, modify, or delete expense records.
+- Use ngrok to map localhost to an HTTPS public domain.
+- Enter the weather and location to check the weather.
+- Use open data from the meteorological agency for web scraping and return the scraped weather information to the LINE user.
