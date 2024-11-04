@@ -14,7 +14,7 @@ import time
 import os.path
 import sys
 
-#import weather as w
+import weather as w
 
 import sqlite3
 
