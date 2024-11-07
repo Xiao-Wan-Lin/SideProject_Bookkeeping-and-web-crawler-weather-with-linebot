@@ -22,8 +22,8 @@ import numpy as np
 
 app = Flask(__name__)
 
-_token='01ESuXTmWHhminyFyioAHyHso+OAN8hym+IQkHPsXSCbABD714jQRYIqScmerZ2ksbraHTmeVEzB3jqf3XGJJ7v/uJhz1xHapE1hQh8n+D6+sKLzf8IIIfCLMz43xw0kVD1pD+yJm0r0eSM63P6guQdB04t89/1O/w1cDnyilFU='
-_secret='4d7feceed126d8dea075e712904047b6'
+_token=''
+_secret=''
 line_bot_api = LineBotApi(_token)
 handler = WebhookHandler(_secret)
 
